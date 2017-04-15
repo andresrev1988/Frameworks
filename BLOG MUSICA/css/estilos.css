@@ -1,17 +1,17 @@
+a,a:hover{
+  color: rgba(241,84,85,1);
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+    color: white;
+    background-color: rgba(241,84,85,1);
+}
 .blog-body{
-  background-color: yellow;
-  }
-
+  margin: 10px;
+}
 .cabecera{
   height: 100px;
+  background-color: rgba(241,84,85,1);
 }
-.logo{
-    background-color: red;
-}
-.redes{
-    background-color: green;
-}
-
 .img-logo{
     height: 100px;
 }
@@ -20,21 +20,15 @@
   width: 40px;
   height: 40px;
 }
-
-.bloque-img{
-  background-color: white;
-}
-.bloque-texto{
-  background-color: cyan;
-
-}
-.txt-articulo{
-
+.img-comentario {
+  width: 30px;
+  height:30px;
 }
 .img-articulo{
   height: 300px;
-  margin: auto;  
+  margin: auto;
 }
+
 .bloque-busqueda{
   background-color: blue;
 }
