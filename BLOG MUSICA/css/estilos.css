@@ -12,6 +12,7 @@ a,a:hover{
   height: 100px;
   background-color: rgba(241,84,85,1);
 }
+
 .img-logo{
     height: 100px;
 }
@@ -27,8 +28,4 @@ a,a:hover{
 .img-articulo{
   height: 300px;
   margin: auto;
-}
-
-.bloque-busqueda{
-  background-color: blue;
 }
