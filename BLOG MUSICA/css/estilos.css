@@ -1,9 +1,7 @@
 .blog-body{
   background-color: yellow;
   }
-  .contenido{
-    background-color: grey;
-  }
+
 .cabecera{
   height: 100px;
 }
@@ -21,4 +19,22 @@
   margin-top: 60px;
   width: 40px;
   height: 40px;
+}
+
+.bloque-img{
+  background-color: white;
+}
+.bloque-texto{
+  background-color: cyan;
+
+}
+.txt-articulo{
+
+}
+.img-articulo{
+  height: 300px;
+  margin: auto;  
+}
+.bloque-busqueda{
+  background-color: blue;
 }
