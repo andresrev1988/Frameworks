@@ -1,0 +1,16 @@
+body{
+  background:url(../images/food-background.jpg);
+  color: white;
+}
+.cuerpo{
+  background-color: rgba(0,0,0,0.7);
+}
+.lupa {
+  margin-top: 10px;
+}
+.bloque-cuerpo{
+
+}
+.bloque-busqueda{
+  margin-top: 20px;
+}
