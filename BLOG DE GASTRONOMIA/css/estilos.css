@@ -3,14 +3,36 @@ body{
   color: white;
 }
 .cuerpo{
+  margin: auto;
   background-color: rgba(0,0,0,0.7);
 }
 .lupa {
   margin-top: 10px;
 }
-.bloque-cuerpo{
-
+.torso {
+  margin-top: 10px;
 }
+.coment {
+  margin-top: 1px;
+}
+.fav{
+  height: 80px;
+}
+.bloque-cuerpo{
+  background-color: rgba(255,255,255,0.2);
+}
+.button{
+  background-color: black;
+}
+
 .bloque-busqueda{
   margin-top: 20px;
+}
+.menu .active>a {
+  color: black;
+  background: white;
+}
+a,li,a:hover{
+  color: white;
+  background: rgba(0,0,0,0.2);
 }

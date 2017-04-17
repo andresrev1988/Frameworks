@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Blog De Gastronomía</title>
     <link rel="stylesheet" href="css/foundation.min.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
@@ -13,45 +14,168 @@
       <div class="cuerpo small-12 medium-12 large-12 columns">
         <!--TITULO-->
         <div class="row">
-            <div class="small-4 medium-4 large-4 columns">
+            <div class="small-4 medium-4 large-4 columns  hide-for-small-only">
               <h3>El Rincón del Gordo</h3>
             </div>
           </div>
           <div class="row">
-            <div class="small-4 medium-4 large-4 columns text-right">
+            <div class="small-4 medium-4 large-4 columns text-right  hide-for-small-only">
               <em>Los mejores restaurantes del mundo.</em>
             </div>
           </div>
+          <hr>
           <div class="row">
             <!--BUSQUEDA-->
-              <div class=" bloque-busqueda small-4 medium-4 large-4 columns ">
+              <div class=" bloque-busqueda small-4 medium-4 large-4 columns  hide-for-small-only">
                   <div class="row">
-                    <div class="lupa small-2 medium-2 large-2 columns text-right">
+                    <div class="small-2 medium-2 large-2 columns text-right">
                       <button name="buscar" type="submit">
-                        <i class="fi-magnifying-glass"></i>
+                        <i class="fi-magnifying-glass lupa"></i>
                       </button>
                     </diV>
                     <div class="small-10 medium-10 large-10 columns">
                       <input type="text" placeholder="Buscar..." />
                     </diV>
                   </div>
-              </div>
+                  <!--MENU-->
+                  <div class="row">
+                    <ul class="menu vertical">
+                      <li class="active"><a href="#">Inicio</a></li>
+                      <li><a href="#">Mi Plato Perfecto</a></li>
+                      <li><a href="#">Mis Recetas</a></li>
+                      <li><a href="#">Favoritos</a></li>
+                    </ul>
+                  </div>
+                  <br><br><br>
+                  <!--FAVORITOS------>
+                  <div class="row">
+                    <h4>Favoritos</h4>
+                  </div>
+                  <hr>
+                    <div class="row">
+                    <div class="small-4 medium-4 large-4 columns text-center">
+                      <img src="images/blog-01.jpg" alt="Restaurante 1" class="thumbnail fav"/>
+                      <img src="images/blog-02.jpg" alt="Restaurante 1" class="thumbnail fav"/>
+                    </div>
+                    <div class="small-4 medium-4 large-4 columns text-center">
+                      <img src="images/blog-03.jpg" alt="Restaurante 1" class="thumbnail fav"/>
+                      <img src="images/blog-04.jpg" alt="Restaurante 1" class="thumbnail fav"/>
+                    </div>
+                    <div class="fav small-4 medium-4 large-4 columns text-center">
+                      <img src="images/blog-05.jpg" alt="Restaurante 1" class="thumbnail fav"/>
+                      <img src="images/blog-06.jpg" alt="Restaurante 1" class="thumbnail fav"/>
+                    </div>
+                  </div>
+                  <!--HISTORIAL------>
+                  <br><br><br>
+                  <div class="row">
+                    <h4>Historial</h4>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <ul class=" vertical">
+                      <li>Historia de la Pasta</li>
+                      <li>Receta de Fettuccine</li>
+                      <li>Receta de Pizza</li>
+                      <li>Risotto</li>
+                    </ul>
+                  </div>
+                </div>
               <!--CONTENIDO 1-->
-              <div class="small-8 medium-8 large-8 columns">
-                <h3>Titulo 1</h3>
+              <div class="small-12 medium-8 large-8 columns">
+                <h3>Fettuccine</h3>
                 <em>04/16/2017</em>
-                <div class="callout text-center">
-                  <img src="img/3.jpg" alt="Restaurante 1" class="thumbnail"/>
+                <div class="bloque-cuerpo callout text-center">
+                  <img src="images/blog-01.jpg" alt="Restaurante 1" class="thumbnail"/>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <!--CONTENIDO 2-->
-                <h3>Titulo 1</h3>
-                <em>04/16/2017</em>
-                <div class="callout text-center">
-                  <img src="img/3.jpg" alt="Restaurante 1" class="thumbnail"/>
+                <p>Es un tipo de pasta, una de sus características más importantes es que es un fideo plano elaborado con huevo y harina. Generalmente se venden secos (en italiano: asciutti), aunque los de más calidad se suelen vender frescos, recién hechos a mano o, al menos, recién salidos de la máquina de hacer pasta. En Argentina es muy común el consumo de fetuchines con tuco y en ciertas ocasiones se les llama «cintitas». En Venezuela se les llama, en plural, fetuchini o fetuchines, pronunciando la 'ch' como en 'china'.</p>
+                <!--TEXTAREA-->
+                <div class='row'>
+                  <div class="torso small-1 medium-1 large-1 columns text-center">
+                    <i class="fi-torso "></i>
+                  </div>
+                  <div class="small-9 medium-9 large-9 columns">
+                    <textarea class="form-control" rows="1" id="comment1" placeholder="Comentario..."></textarea>
+                  </div>
+                  <div class="small-2 medium-2 large-2 columns">
+                    <a href="#" class="button">Send</a>
+                  </div>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <!--COMENTARIO 1-->
+                <div class='row'>
+                  <div class="torsos small-1 medium-1 large-1 columns text-center">
+                    <i class="fi-torsos-all "></i>
+                  </div>
+                  <div class="coment small-11 medium-11 large-11 columns">
+                    <strong>Maria P.: </strong><em>Excelente receta.</em>
+                  </div>
+                </div>
+              <!--COMENTARIO 2-->
+              <div class='row'>
+                <div class="torsos small-1 medium-1 large-1 columns text-center">
+                  <i class="fi-torsos-all "></i>
+                </div>
+                <div class="coment small-11 medium-11 large-11 columns">
+                  <strong>Juan S.: </strong><em>Me ayudo mucho.</em>
+                </div>
               </div>
+              <!--COMENTARIO 3-->
+              <div class='row'>
+                <div class="small-1 medium-1 large-1 columns text-center">
+                  <i class="fi-torsos-all "></i>
+                </div>
+                <div class="coment small-11 medium-11 large-11 columns">
+                  <strong>Pedro T.: </strong><em>Quiero más recetas como esta.</em>
+                </div>
+              </div>
+              <!--CONTENIDO 2-->
+                <h3>Risotto Parmigiano</h3>
+                <em>04/16/2017</em>
+                <div class="bloque-cuerpo callout text-center">
+                  <img src="images/blog-02.jpg" alt="Risotto Parmigiano" class="thumbnail"/>
+                </div>
+                <p>Es una comida tradicional italiana realizada a base de arroz. Es uno de los modos más comunes de cocinar arroz en Italia. Es una comida originaria de la zona noroeste del país, concretamente del este de Piamonte, el oeste de Lombardía y de la zona de Verona, debido a la abundancia de arroz. Es uno de los pilares de la gastronomía norteña en general. El queso (usualmente parmesano) suele configurar habitualmente la seña característica del plato</p>
+                <!--TEXTAREA-->
+                <div class='row'>
+                  <div class="torso small-1 medium-1 large-1 columns text-center">
+                    <i class="fi-torso "></i>
+                  </div>
+                  <div class="small-9 medium-9 large-9 columns">
+                    <textarea class="form-control" rows="1" id="comment1" placeholder="Comentario..."></textarea>
+                  </div>
+                  <div class="small-2 medium-2 large-2 columns">
+                    <a href="#" class="button">Send</a>
+                  </div>
+                </div>
+                <!--COMENTARIO 1-->
+                <div class='row'>
+                  <div class="torsos small-1 medium-1 large-1 columns text-center">
+                    <i class="fi-torsos-all "></i>
+                  </div>
+                  <div class="coment small-11 medium-11 large-11 columns">
+                    <strong>Maria P.: </strong><em>Excelente receta.</em>
+                  </div>
+                </div>
+              <!--COMENTARIO 2-->
+              <div class='row'>
+                <div class="torsos small-1 medium-1 large-1 columns text-center">
+                  <i class="fi-torsos-all "></i>
+                </div>
+                <div class="coment small-11 medium-11 large-11 columns">
+                  <strong>Juan S.: </strong><em>Me ayudo mucho.</em>
+                </div>
+              </div>
+              <!--COMENTARIO 3-->
+              <div class='row'>
+                <div class="small-1 medium-1 large-1 columns text-center">
+                  <i class="fi-torsos-all "></i>
+                </div>
+                <div class="coment small-11 medium-11 large-11 columns">
+                  <strong>Pedro T.: </strong><em>Quiero más recetas como esta.</em>
+                </div>
+              </div>
+
+            </div>
           </div>
       </div>
     </div>
