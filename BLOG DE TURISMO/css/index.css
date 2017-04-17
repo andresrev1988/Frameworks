@@ -1,0 +1,14 @@
+body{
+  background:url(../img/fondo.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.lar{
+  height: 300px;
+  width: 100%;
+}
+.pq{
+  height: 150px;
+  width: 100%;
+}
