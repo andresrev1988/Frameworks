@@ -1,6 +1,8 @@
 body{
   background:url(../images/food-background.jpg);
   color: white;
+  background-repeat: no-repeat;
+   background-attachment: fixed;
 }
 .cuerpo{
   margin: auto;
